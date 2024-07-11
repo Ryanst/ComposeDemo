@@ -12,7 +12,10 @@
         android:theme="@style/Theme.ComposeDemo"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity2"
+            android:name=".EmptyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BasicActivity"
             android:exported="false"
             android:label="@string/title_activity_main2"
             android:theme="@style/Theme.ComposeDemo.NoActionBar" />
